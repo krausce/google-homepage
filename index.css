@@ -1,3 +1,80 @@
+.google {
+    display: flex;
+}
+
+.google-apps {    
+    background-image:url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-position-x:-132px;
+    background-position-y:-38px;
+    background-size:528px 68px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    opacity:0.55;
+    width:30px;
+}
+
+.google-notifications {
+    background-color:rgba(0, 0, 0, 0.55);
+    background-image:url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+    background-position-x:-194px;
+    background-position-y:-21px;
+    background-size:528px 68px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    height:20px;
+    width:20px;
+    margin-top: 5px;
+}
+
+.google-account {
+    background-image: url("https://lh3.googleusercontent.com/-eZDi2lpEwGI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcpED44dphYmBptCMTmXO3kog00TQ/s64-c-mo/photo.jpg");
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    display:block;
+    height:32px;
+    margin-bottom:-1px;
+    margin-left:5px;
+    margin-right:-1px;
+    margin-top:-1px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    position:relative;
+    width:32px;
+    z-index:0;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.navbar {
+    color:rgba(0, 0, 0, 0.87);
+    cursor:pointer;
+    display:flex;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    height:auto;
+    line-height:24px;
+    user-select:none;
+    vertical-align:middle;
+    white-space:nowrap;
+    width:auto;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+.nav-link {
+    display:inline-block;
+    padding: 3px;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
@@ -12,6 +89,13 @@
     border: transparent;
     border: none;
     outline: none;
+}
+
+.keyboard {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    line-height: 44px;
 }
 
 .search-box {
